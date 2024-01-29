@@ -1,10 +1,11 @@
-from base.selenium_driver import SeleniumDriver
+# from base.selenium_driver import SeleniumDriver
+from base.basepage import BasePage
 import utilities.custom_logger as cl
 import logging
 import time
 
 
-class LoginPage(SeleniumDriver):
+class LoginPage(BasePage):
 
     log = cl.customLogger(logging.DEBUG)
 
@@ -49,10 +50,12 @@ class LoginPage(SeleniumDriver):
     def login(self, username="", password=""):
         self.clickLoginLink()
         self.clearFields()
+        time.sleep(2)
         self.enterEmail(username)
         self.enterPassword(password)
         time.sleep(2)
         self.clickLoginButton()
+        time.sleep(2)
 
     def verifyLoginSuccessful(self):
         result = self.isElementPresent("//span[contains(text(), 'My Account')]", locatorType="xpath")
@@ -61,6 +64,9 @@ class LoginPage(SeleniumDriver):
     def verifyLoginFailed(self):
         result = self.isElementPresent("//span[contains(text(),'Incorrect login details. Please try again.')]", locatorType="xpath")
         return result
+
+    def verifyTitle(self):
+        return self.verifyPageTitle("My Courses")
 
     def clearFields(self):
         emailField = self.getElement(locator=self._emailField)

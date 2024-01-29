@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 import time
 from base.webdriverfactory import WebDriverFactory
+from pages.home.login_page import LoginPage
 
 
 @pytest.fixture()
@@ -16,6 +17,13 @@ def oneTimeSetUp(request, browser):
     print("Running one time setUp")
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
+    """
+    TODO: This is not working
+    """
+    # lp = LoginPage(driver)
+    # lp.login("abhay@mailinator.com", "Abhay@0809")
+
+    # IGNORE THIS CODE
     # if browser == 'firefox':
     #     baseUrl = "https://www.letskodeit.com/"
     #     driver = webdriver.Firefox()
