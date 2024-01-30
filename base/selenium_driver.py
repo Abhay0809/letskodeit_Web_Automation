@@ -215,3 +215,113 @@ class SeleniumDriver():
         if direction == "down":
             # Scroll Down
             self.driver.execute_script("window.scrollBy(0, 1000);")
+
+    def switchFrameByIndex(self, locator, locatorType="xpath"):
+        """
+        Switch to frame using index
+        :param locator:
+        :param locatorType:
+        :return:
+        """
+        result = False
+        try:
+            iframe_list = self.getElementList("//iframe", locatorType="xpath")
+            self.log.info("Size of iframe list: " + str(len(iframe_list)))
+            for i in range(len(iframe_list)):
+                self.switchToFrame(index=iframe_list[i])
+                result = self.isElementPresent(locator, locatorType)
+                if result:
+                    self.log.info("iframe index is: " + str(i))
+                    break
+                self.switchToDefaultContent()
+            return result
+        except:
+            self.log.error("iframe not found")
+            return result
+
+    def switchToFrame(self, id="", name="", index=None):
+        """
+        Switch to iframe using element locator inside iframe
+        :param id:
+        :param name:
+        :param index:
+        :return:
+        """
+        try:
+            if id:
+                self.driver.switch_to.frame(id)
+            elif name:
+                self.driver.switch_to.frame(name)
+            elif index:
+                self.driver.switch_to.frame(index)
+            self.log.info("Switched to iframe")
+        except:
+            self.log.info("Failed to switch to iframe")
+            print_stack()
+
+    def switchToDefaultContent(self):
+        """
+        Switch to main window
+        :return:
+        """
+        try:
+            self.driver.switch_to.default_content()
+            self.log.info("Switched to main window")
+        except:
+            self.log.info("Failed to switch to main window")
+            print_stack()
+
+    def getElementAttributeValue(self, attribute, locator="", locatorType="id", element=None):
+        """
+        Get 'Text' on an element
+        :param attribute:
+        :param locator:
+        :param locatorType:
+        :param element:
+        :param info:
+        :return:
+        """
+        try:
+            if locator:
+                self.log.debug("In locator condition")
+                element = self.getElement(locator, locatorType)
+            self.log.debug("Before finding text")
+            attributeValue = element.get_attribute(attribute)
+            self.log.debug("After finding element, size is: " + str(len(attributeValue)))
+            if len(attributeValue) != 0:
+                self.log.info("Getting attribute value on element :: " + attribute)
+                self.log.info("The attribute value is :: '" + attributeValue + "'")
+                attributeValue = attributeValue.strip()
+        except:
+            self.log.error("Failed to get attribute value on element " + attribute)
+            print_stack()
+            attributeValue = None
+        return attributeValue
+
+    def isEnabled(self, locator="", locatorType="id", info=""):
+        """
+        Check if element is enabled
+        :param locator:
+        :param locatorType:
+        :param info:
+        :return:
+        """
+        element = self.getElement(locator, locatorType=locatorType)
+        enabled = False
+        try:
+            attributeValue = self.getElementAttributeValue(attribute="disabled", element=element)
+            if attributeValue is not None:
+                enabled = element.is_enabled()
+                self.log.info("Element is enabled :: " + info)
+                return enabled
+            else:
+                value = self.getElementAttributeValue(attribute="class", element=element)
+                self.log.info("Attribute value from application web UI :: " + value)
+                enabled = not ("disabled" in value)
+            if enabled:
+                self.log.info("Element is enabled :: " + info)
+            else:
+                self.log.info("Element is not enabled :: " + info)
+        except:
+            self.log.error("Element is not enabled :: " + info)
+        return enabled
