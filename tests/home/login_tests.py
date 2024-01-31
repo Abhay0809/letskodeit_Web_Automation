@@ -32,7 +32,7 @@ class LoginTests(unittest.TestCase):
 
     @pytest.mark.run(order=1)
     def test_invalidLogin(self):
-
+        self.lp.logout()
         self.lp.login("abhay@mailinator.com", "abcabcabc")
         result = self.lp.verifyLoginFailed()
         assert result == True

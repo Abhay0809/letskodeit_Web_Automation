@@ -35,21 +35,21 @@ class RegisterCoursesPage(BasePage):
 
     def enterCardNum(self, num):
         self.switchFrameByIndex(self._cc_num, locatorType="xpath")
-        time.sleep(2)
+        time.sleep(1)
         self.sendKeys(num, self._cc_num, locatorType="xpath")
         time.sleep(1)
         self.switchToDefaultContent()
 
     def enterCardExp(self, exp):
         self.switchFrameByIndex(self._cc_exp, locatorType="xpath")
-        time.sleep(2)
+        time.sleep(1)
         self.sendKeys(exp, self._cc_exp, locatorType="xpath")
         time.sleep(1)
         self.switchToDefaultContent()
 
     def enterCardCVV(self, cvv):
         self.switchFrameByIndex(self._cc_cvv, locatorType="xpath")
-        time.sleep(2)
+        time.sleep(1)
         self.sendKeys(cvv, self._cc_cvv, locatorType="xpath")
         time.sleep(1)
         self.switchToDefaultContent()
