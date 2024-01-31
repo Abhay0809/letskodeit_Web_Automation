@@ -2773,3 +2773,272 @@
 01/31/2024 03:33:48 PM - RegisterCoursesPage - INFO: Element is displayed
 01/31/2024 03:33:48 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Enrollment Failed Verification
 01/31/2024 03:33:48 PM - TestStatus - INFO: test_invalidEnrollment ### TEST SUCCESSFUL
+01/31/2024 04:59:13 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 04:59:14 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 04:59:14 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 04:59:14 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 04:59:16 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 04:59:16 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 04:59:16 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 04:59:16 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 04:59:18 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 04:59:18 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 04:59:23 PM - Util - INFO: Actual Text From Application Web UI --> :: My Courses
+01/31/2024 04:59:23 PM - Util - INFO: Expected Text From Application Web UI --> :: My Courses
+01/31/2024 04:59:23 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+01/31/2024 04:59:23 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title is incorrect
+01/31/2024 04:59:23 PM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'My Account')] and  locatorType: xpath
+01/31/2024 04:59:23 PM - LoginPage - INFO: Element Found
+01/31/2024 04:59:23 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+01/31/2024 04:59:23 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+01/31/2024 05:05:46 PM - NavigationPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:05:57 PM - NavigationPage - INFO: Element not appeared on the web page
+01/31/2024 05:05:57 PM - NavigationPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:05:57 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:06:08 PM - LoginPage - INFO: Element not appeared on the web page
+01/31/2024 05:06:08 PM - LoginPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:06:18 PM - LoginPage - INFO: Element not found with locator: //a[@href='/logout'] and  locatorType: xpath
+01/31/2024 05:06:18 PM - LoginPage - INFO: Cannot click on the element with locator: //a[@href='/logout'] locatorType: xpath
+01/31/2024 05:06:18 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:06:19 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:06:19 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:06:19 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:06:21 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:06:21 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:06:21 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:06:21 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:06:23 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:06:24 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:06:26 PM - LoginPage - INFO: Element found with locator: //span[contains(text(),'Incorrect login details. Please try again.')] and  locatorType: xpath
+01/31/2024 05:06:26 PM - LoginPage - INFO: Element Found
+01/31/2024 05:06:26 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:06:27 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:06:27 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:06:27 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:06:29 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:06:29 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:06:29 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:06:29 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:06:31 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:06:31 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:06:36 PM - Util - INFO: Actual Text From Application Web UI --> :: My Courses
+01/31/2024 05:06:36 PM - Util - INFO: Expected Text From Application Web UI --> :: My Courses
+01/31/2024 05:06:36 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+01/31/2024 05:06:36 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title is incorrect
+01/31/2024 05:06:36 PM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'My Account')] and  locatorType: xpath
+01/31/2024 05:06:36 PM - LoginPage - INFO: Element Found
+01/31/2024 05:06:36 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+01/31/2024 05:06:36 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL
+01/31/2024 05:10:00 PM - NavigationPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:10:11 PM - NavigationPage - INFO: Element not appeared on the web page
+01/31/2024 05:10:11 PM - NavigationPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:10:11 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:10:22 PM - LoginPage - INFO: Element not appeared on the web page
+01/31/2024 05:10:22 PM - LoginPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:10:32 PM - LoginPage - INFO: Element not found with locator: //a[@href='/logout'] and  locatorType: xpath
+01/31/2024 05:10:32 PM - LoginPage - INFO: Cannot click on the element with locator: //a[@href='/logout'] locatorType: xpath
+01/31/2024 05:10:32 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:10:33 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:10:33 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:10:33 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:10:35 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:10:35 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:10:35 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:10:35 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:10:38 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:10:38 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:10:40 PM - LoginPage - INFO: Element found with locator: //span[contains(text(),'Incorrect login details. Please try again.')] and  locatorType: xpath
+01/31/2024 05:10:40 PM - LoginPage - INFO: Element Found
+01/31/2024 05:10:40 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:10:41 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:10:41 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:10:41 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:10:43 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:10:43 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:10:43 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:10:43 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:10:45 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:10:46 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:10:51 PM - Util - INFO: Actual Text From Application Web UI --> :: My Courses
+01/31/2024 05:10:51 PM - Util - INFO: Expected Text From Application Web UI --> :: TESTING WRONG TITLE
+01/31/2024 05:10:51 PM - Util - INFO: ### VERIFICATION DOES NOT CONTAINS !!!
+01/31/2024 05:10:51 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Title is incorrect
+01/31/2024 05:10:51 PM - TestStatus - INFO: Screenshot save to directory: C:\Users\Abhay_Anand\PycharmProjects\letskodeit\base\../screenshots/Title is incorrect.1706701251060.png
+01/31/2024 05:10:51 PM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'My Account')] and  locatorType: xpath
+01/31/2024 05:10:51 PM - LoginPage - INFO: Element Found
+01/31/2024 05:10:51 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+01/31/2024 05:10:51 PM - TestStatus - ERROR: test_validLogin ### TEST FAILED
+01/31/2024 05:13:42 PM - NavigationPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:13:53 PM - NavigationPage - INFO: Element not appeared on the web page
+01/31/2024 05:13:53 PM - NavigationPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:13:53 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:14:04 PM - LoginPage - INFO: Element not appeared on the web page
+01/31/2024 05:14:04 PM - LoginPage - INFO: Cannot click on the element with locator:  locatorType: id
+01/31/2024 05:14:14 PM - LoginPage - INFO: Element not found with locator: //a[@href='/logout'] and  locatorType: xpath
+01/31/2024 05:14:14 PM - LoginPage - INFO: Cannot click on the element with locator: //a[@href='/logout'] locatorType: xpath
+01/31/2024 05:14:14 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:14:15 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:14:15 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:14:15 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:14:17 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:14:18 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:14:18 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:14:18 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:14:20 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:14:20 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:14:22 PM - LoginPage - INFO: Element found with locator: //span[contains(text(),'Incorrect login details. Please try again.')] and  locatorType: xpath
+01/31/2024 05:14:22 PM - LoginPage - INFO: Element Found
+01/31/2024 05:14:36 PM - NavigationPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:14:42 PM - NavigationPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:14:42 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:14:43 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:14:43 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:14:43 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:14:45 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:14:45 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:14:45 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:14:45 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:14:47 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:14:48 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:14:52 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@id='search'] and  locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@id='search'] locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@class='input-group']/button/i and  locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@class='input-group']/button/i locatorType: xpath
+01/31/2024 05:14:57 PM - RegisterCoursesPage - INFO: Element found with locator: //h4[contains(text(), 'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:15:03 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //h4[contains(text(), 'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:15:03 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(text(), 'Enroll in Course')] and  locatorType: xpath
+01/31/2024 05:15:10 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(text(), 'Enroll in Course')] locatorType: xpath
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Card Number'] and  locatorType: xpath
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:15:14 PM - RegisterCoursesPage - INFO: iframe index is: 0
+01/31/2024 05:15:15 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Card Number'] and  locatorType: xpath
+01/31/2024 05:15:15 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='Card Number'] locatorType: xpath
+01/31/2024 05:15:16 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:16 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:15:16 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:15:16 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:15:26 PM - RegisterCoursesPage - INFO: iframe index is: 1
+01/31/2024 05:15:27 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:15:27 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='MM / YY'] locatorType: xpath
+01/31/2024 05:15:28 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:28 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:15:28 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:15:28 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:38 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:15:38 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:15:38 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:38 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:15:48 PM - RegisterCoursesPage - INFO: iframe index is: 2
+01/31/2024 05:15:49 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:15:49 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='Security Code'] locatorType: xpath
+01/31/2024 05:15:50 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:15:51 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@class='col-xs-12']//button and  locatorType: xpath
+01/31/2024 05:15:51 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@class='col-xs-12']//button locatorType: xpath
+01/31/2024 05:15:51 PM - RegisterCoursesPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:15:51 PM - RegisterCoursesPage - INFO: Element appeared on the web page
+01/31/2024 05:15:51 PM - RegisterCoursesPage - INFO: Element is displayed
+01/31/2024 05:15:51 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Enrollment Failed Verification
+01/31/2024 05:15:51 PM - TestStatus - INFO: test_invalidEnrollment ### TEST SUCCESSFUL
+01/31/2024 05:15:51 PM - NavigationPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:15:58 PM - NavigationPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:15:58 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:15:58 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:15:58 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:15:58 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:16:00 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:16:01 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:16:01 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:16:01 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:16:03 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:16:03 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:16:07 PM - RegisterCoursesPage - INFO: Element found with locator: //a[@href='/courses'] and  locatorType: xpath
+01/31/2024 05:16:12 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //a[@href='/courses'] locatorType: xpath
+01/31/2024 05:16:12 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@id='search'] and  locatorType: xpath
+01/31/2024 05:16:12 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@id='search'] locatorType: xpath
+01/31/2024 05:16:12 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@class='input-group']/button/i and  locatorType: xpath
+01/31/2024 05:16:13 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@class='input-group']/button/i locatorType: xpath
+01/31/2024 05:16:13 PM - RegisterCoursesPage - INFO: Element found with locator: //h4[contains(text(), 'JavaScript for beginners')] and  locatorType: xpath
+01/31/2024 05:16:19 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //h4[contains(text(), 'JavaScript for beginners')] locatorType: xpath
+01/31/2024 05:16:19 PM - RegisterCoursesPage - INFO: Element found with locator: //button[contains(text(), 'Enroll in Course')] and  locatorType: xpath
+01/31/2024 05:16:25 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //button[contains(text(), 'Enroll in Course')] locatorType: xpath
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Card Number'] and  locatorType: xpath
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:16:29 PM - RegisterCoursesPage - INFO: iframe index is: 0
+01/31/2024 05:16:30 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Card Number'] and  locatorType: xpath
+01/31/2024 05:16:31 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='Card Number'] locatorType: xpath
+01/31/2024 05:16:32 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:16:32 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:16:32 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:16:32 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:16:42 PM - RegisterCoursesPage - INFO: iframe index is: 1
+01/31/2024 05:16:43 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='MM / YY'] and  locatorType: xpath
+01/31/2024 05:16:43 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='MM / YY'] locatorType: xpath
+01/31/2024 05:16:44 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:16:44 PM - RegisterCoursesPage - INFO: Element list found with locator: //iframe and  locatorType: xpath
+01/31/2024 05:16:44 PM - RegisterCoursesPage - INFO: Size of iframe list: 10
+01/31/2024 05:16:44 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:16:54 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:16:54 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:16:54 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:16:54 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Element not found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Element not found
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Switched to iframe
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: Element Found
+01/31/2024 05:17:04 PM - RegisterCoursesPage - INFO: iframe index is: 2
+01/31/2024 05:17:05 PM - RegisterCoursesPage - INFO: Element found with locator: //input[@placeholder='Security Code'] and  locatorType: xpath
+01/31/2024 05:17:05 PM - RegisterCoursesPage - INFO: Sent data on element with locator: //input[@placeholder='Security Code'] locatorType: xpath
+01/31/2024 05:17:06 PM - RegisterCoursesPage - INFO: Switched to main window
+01/31/2024 05:17:06 PM - RegisterCoursesPage - INFO: Element found with locator: //div[@class='col-xs-12']//button and  locatorType: xpath
+01/31/2024 05:17:07 PM - RegisterCoursesPage - INFO: Clicked on element with locator: //div[@class='col-xs-12']//button locatorType: xpath
+01/31/2024 05:17:07 PM - RegisterCoursesPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+01/31/2024 05:17:07 PM - RegisterCoursesPage - INFO: Element appeared on the web page
+01/31/2024 05:17:07 PM - RegisterCoursesPage - INFO: Element is displayed
+01/31/2024 05:17:07 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Enrollment Failed Verification
+01/31/2024 05:17:07 PM - TestStatus - INFO: test_invalidEnrollment ### TEST SUCCESSFUL
+01/31/2024 05:17:25 PM - LoginPage - INFO: Element found with locator: //a[@href='/login'] and  locatorType: xpath
+01/31/2024 05:17:26 PM - LoginPage - INFO: Clicked on element with locator: //a[@href='/login'] locatorType: xpath
+01/31/2024 05:17:26 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:17:26 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:17:28 PM - LoginPage - INFO: Element found with locator: email and  locatorType: id
+01/31/2024 05:17:28 PM - LoginPage - INFO: Sent data on element with locator: email locatorType: id
+01/31/2024 05:17:28 PM - LoginPage - INFO: Element found with locator: login-password and  locatorType: id
+01/31/2024 05:17:28 PM - LoginPage - INFO: Sent data on element with locator: login-password locatorType: id
+01/31/2024 05:17:30 PM - LoginPage - INFO: Element found with locator: login and  locatorType: id
+01/31/2024 05:17:31 PM - LoginPage - INFO: Clicked on element with locator: login locatorType: id
+01/31/2024 05:17:36 PM - Util - INFO: Actual Text From Application Web UI --> :: My Courses
+01/31/2024 05:17:36 PM - Util - INFO: Expected Text From Application Web UI --> :: My Courses
+01/31/2024 05:17:36 PM - Util - INFO: ### VERIFICATION CONTAINS !!!
+01/31/2024 05:17:36 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Title is incorrect
+01/31/2024 05:17:36 PM - LoginPage - INFO: Element found with locator: //span[contains(text(), 'My Account')] and  locatorType: xpath
+01/31/2024 05:17:36 PM - LoginPage - INFO: Element Found
+01/31/2024 05:17:36 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Login was not successful
+01/31/2024 05:17:36 PM - TestStatus - INFO: test_validLogin ### TEST SUCCESSFUL

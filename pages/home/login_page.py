@@ -68,6 +68,7 @@ class LoginPage(BasePage):
         return result
 
     def verifyTitle(self):
+        # return self.verifyPageTitle("TESTING WRONG TITLE")
         return self.verifyPageTitle("My Courses")
 
     def clearFields(self):
@@ -77,6 +78,7 @@ class LoginPage(BasePage):
         passwordField.clear()
 
     def logout(self):
-        self.nav.navigateToUserSettingsIcon()
-        logoutLinkElement = self.waitForElement(locator="//a[@href='/logout']]", locatorType="xpath", pollFrequency=1)
+        self.nav.navigateToUserSettings()
+        logoutLinkElement = self.waitForElement(locator="//a[@class='dynamic-link']//span[@class='caret']", locatorType="xpath", pollFrequency=1)
         self.elementClick(element=logoutLinkElement)
+        self.elementClick(locator="//a[@href='/logout']", locatorType="xpath")
